@@ -10,14 +10,14 @@ set -e
 # --------
 # NOTE: SET THESE PARAMETERS BASED ON YOUR SCENE!
 # data paths
-SCENE_DIR="$(pwd)/resources/scene_example"
+SCENE_DIR="$(pwd)/resources/420683/42445132/scene_example"
 SCENE_POSE_DIR="${SCENE_DIR}/pose"
 SCENE_INTRINSIC_PATH="${SCENE_DIR}/intrinsic/intrinsic_color.txt"
-SCENE_INTRINSIC_RESOLUTION="[968,1296]" # change if your intrinsics are based on another resolution
+SCENE_INTRINSIC_RESOLUTION="[1440,1920]" # change if your intrinsics are based on another resolution, TODO_MIKS: this looks like (height x width) -> verify afterwards
 SCENE_PLY_PATH="${SCENE_DIR}/scene_example.ply"
 SCENE_COLOR_IMG_DIR="${SCENE_DIR}/color"
 SCENE_DEPTH_IMG_DIR="${SCENE_DIR}/depth"
-IMG_EXTENSION=".jpg"
+IMG_EXTENSION=".png"
 DEPTH_EXTENSION=".png"
 DEPTH_SCALE=1000
 # model ckpt paths
@@ -29,7 +29,7 @@ OUTPUT_DIRECTORY="$(pwd)/output"
 TIMESTAMP=$(date +"%Y-%m-%d-%H-%M-%S")
 OUTPUT_FOLDER_DIRECTORY="${OUTPUT_DIRECTORY}/${TIMESTAMP}-${EXPERIMENT_NAME}"
 SAVE_VISUALIZATIONS=false #if set to true, saves pyviz3d visualizations
-SAVE_CROPS=false 
+SAVE_CROPS=true 
 # gpu optimization
 OPTIMIZE_GPU_USAGE=false
 
