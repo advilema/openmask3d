@@ -10,7 +10,7 @@ set -e
 # --------
 # NOTE: SET THESE PARAMETERS BASED ON YOUR SCENE!
 # data paths
-SCENE_DIR="$(pwd)/resources/420683/42445132/scene_example"
+SCENE_DIR="/teamspace/studios/openmask3d/openmask3d/resources/420683/42445132/scene_example"
 SCENE_POSE_DIR="${SCENE_DIR}/pose"
 SCENE_INTRINSIC_PATH="${SCENE_DIR}/intrinsic/intrinsic_color.txt"
 SCENE_INTRINSIC_RESOLUTION="[1440,1920]" # change if your intrinsics are based on another resolution, TODO_MIKS: this looks like (height x width) -> verify afterwards
@@ -21,8 +21,8 @@ IMG_EXTENSION=".png"
 DEPTH_EXTENSION=".png"
 DEPTH_SCALE=1000
 # model ckpt paths
-MASK_MODULE_CKPT_PATH="$(pwd)/resources/scannet200_model.ckpt"
-SAM_CKPT_PATH="$(pwd)/resources/sam_vit_h_4b8939.pth"
+MASK_MODULE_CKPT_PATH="/teamspace/studios/openmask3d/openmask3d/resources/scannet200_model.ckpt"
+SAM_CKPT_PATH="/teamspace/studios/openmask3d/openmask3d/resources/sam_vit_h_4b8939.pth"
 # output directories to save masks and mask features
 EXPERIMENT_NAME="experiment"
 OUTPUT_DIRECTORY="$(pwd)/output"

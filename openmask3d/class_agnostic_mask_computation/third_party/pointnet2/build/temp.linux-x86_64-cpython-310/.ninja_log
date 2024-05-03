@@ -1,0 +1,10 @@
+# ninja log v5
+1	36502	1714737433027107802	/teamspace/studios/this_studio/openmask3d/openmask3d/class_agnostic_mask_computation/third_party/pointnet2/build/temp.linux-x86_64-cpython-310/_ext_src/src/group_points.o	ffe3980d82b2cc74
+2	38081	1714737434611104768	/teamspace/studios/this_studio/openmask3d/openmask3d/class_agnostic_mask_computation/third_party/pointnet2/build/temp.linux-x86_64-cpython-310/_ext_src/src/sampling.o	14b0c3ad7a53a5b9
+1	38207	1714737434735104530	/teamspace/studios/this_studio/openmask3d/openmask3d/class_agnostic_mask_computation/third_party/pointnet2/build/temp.linux-x86_64-cpython-310/_ext_src/src/interpolate.o	1cd2aa0fe678e86e
+0	38894	1714737435423103213	/teamspace/studios/this_studio/openmask3d/openmask3d/class_agnostic_mask_computation/third_party/pointnet2/build/temp.linux-x86_64-cpython-310/_ext_src/src/ball_query.o	1bad597cb930575d
+0	39978	1714737436503101149	/teamspace/studios/this_studio/openmask3d/openmask3d/class_agnostic_mask_computation/third_party/pointnet2/build/temp.linux-x86_64-cpython-310/_ext_src/src/bindings.o	7d93463e77eae235
+0	85918	1714737482415015024	/teamspace/studios/this_studio/openmask3d/openmask3d/class_agnostic_mask_computation/third_party/pointnet2/build/temp.linux-x86_64-cpython-310/_ext_src/src/ball_query_gpu.o	771b9640d39984cd
+1	86430	1714737482927014081	/teamspace/studios/this_studio/openmask3d/openmask3d/class_agnostic_mask_computation/third_party/pointnet2/build/temp.linux-x86_64-cpython-310/_ext_src/src/interpolate_gpu.o	a52593e20d63a434
+1	86604	1714737483103013756	/teamspace/studios/this_studio/openmask3d/openmask3d/class_agnostic_mask_computation/third_party/pointnet2/build/temp.linux-x86_64-cpython-310/_ext_src/src/group_points_gpu.o	cc1a7e7da0615671
+3	88255	1714737484763010701	/teamspace/studios/this_studio/openmask3d/openmask3d/class_agnostic_mask_computation/third_party/pointnet2/build/temp.linux-x86_64-cpython-310/_ext_src/src/sampling_gpu.o	eb737c46f1c5dbdd
