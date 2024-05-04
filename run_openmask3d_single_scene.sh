@@ -10,11 +10,11 @@ set -e
 # --------
 # NOTE: SET THESE PARAMETERS BASED ON YOUR SCENE!
 # data paths
-SCENE_DIR="/teamspace/studios/openmask3d/openmask3d/resources/420683/42445132/scene_example"
+SCENE_DIR="/teamspace/studios/openmask3d/openmask3d/resources/420683/42445132"
 SCENE_POSE_DIR="${SCENE_DIR}/pose"
 SCENE_INTRINSIC_PATH="${SCENE_DIR}/intrinsic/intrinsic_color.txt"
 SCENE_INTRINSIC_RESOLUTION="[1440,1920]" # change if your intrinsics are based on another resolution, TODO_MIKS: this looks like (height x width) -> verify afterwards
-SCENE_PLY_PATH="${SCENE_DIR}/scene_example.ply"
+SCENE_PLY_PATH="${SCENE_DIR}/42445132.ply"
 SCENE_COLOR_IMG_DIR="${SCENE_DIR}/color"
 SCENE_DEPTH_IMG_DIR="${SCENE_DIR}/depth"
 IMG_EXTENSION=".png"
